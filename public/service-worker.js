@@ -1,5 +1,5 @@
-const StaticCache = "static-cache-v3"
-const DataCache = "data-cache-v2"
+const StaticCache = "static-cache-v4"
+const DataCache = "data-cache-v3"
 
 const CachedFiles = [
     "/",
@@ -45,7 +45,7 @@ self.addEventListener("install", function(evt) {
 self.addEventListener("fetch", function(evt) {
     if (evt.request.url.includes("/api/")) {
       evt.respondWith(
-        caches.open(StaticCache).then(cache => {
+        caches.open(DataCache).then(cache => {
           return fetch(evt.request)
             .then(response => {
               // If the response was good, clone it and store it in the cache.
