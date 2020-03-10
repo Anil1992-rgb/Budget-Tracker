@@ -6,6 +6,10 @@ body {
   background-size: cover;
 }
 
+.headerImgs {
+  height:50px;
+}
+
 button, input {
   font-size: 100%;
   font-family: Arial;
@@ -15,10 +19,15 @@ table {
   width: 100%;
 }
 
+th {
+  padding: 0px !important;
+}
+
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
