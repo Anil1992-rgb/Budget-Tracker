@@ -1,7 +1,7 @@
 # Budget-Tracker
 Able to add expenses and deposits to their budget with or without a connection using service workers/PWA and indexedDB. When entering transactions offline, they should populate the total when brought back online.
 
-![Example profile](./public/images/screenshot.png)
+![Example profile](./public/images/ExmplScreenShot.png)
 
 ## Getting Started
 
