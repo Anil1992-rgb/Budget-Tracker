@@ -1,5 +1,5 @@
-const StaticCache = "static-cache-v2"
-const DataCache = "data-cache-v1"
+const StaticCache = "static-cache-v3"
+const DataCache = "data-cache-v2"
 
 const CachedFiles = [
     "/",
@@ -17,7 +17,7 @@ self.addEventListener("install", function(evt) {
     evt.waitUntil(
       caches.open(StaticCache).then(cache => {
         console.log("Your files were pre-cached successfully!");
-        return cache.addAll(CachedFiles);
+        return cache.addAll(CachedFiles);   
       })
     );
   
