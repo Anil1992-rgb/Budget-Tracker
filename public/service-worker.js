@@ -12,7 +12,6 @@ const CachedFiles = [
     "/index.js"
 ]
 
-
 // install
 self.addEventListener("install", function(evt) {
     evt.waitUntil(
