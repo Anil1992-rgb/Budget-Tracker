@@ -29,7 +29,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Deployment
 
-Or you can view and try the app here: 
+Or you can view and try the app here: https://moolahtracker.herokuapp.com/
 
 
 ## Built With
